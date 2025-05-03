@@ -56,7 +56,7 @@
 .card {
   inline-size: min(100vw, 700px);
   background-color: white;
-  border: none;
+  border: 2px solid #000;
   margin-block-end: 50px;
 }
 
@@ -64,7 +64,7 @@
   font-size: 18px;
   line-height: 21.78px;
   font-variation-settings: 'wght' var(--title-font-weight);
-  padding: 4px 10px 6px;
+  padding: 7px 10px;
 }
 
 .card-image-block {
@@ -135,6 +135,7 @@
   flex-direction: column;
   gap: 25px;
   padding: 25px;
+  line-height: 21px;
 }
 
 .card-button {
@@ -290,7 +291,6 @@
   mix-blend-mode: difference;
   inline-size: 28px;
   aspect-ratio: 1/1;
-  background-image: url(../svg/diskette.svg);
 } 
 
 dialog::backdrop {
@@ -323,7 +323,6 @@ dialog::backdrop {
 .dialog__diskette {
   inline-size: 39px;
   aspect-ratio: 1/1;
-  background-image: url(../svg/diskette.svg);
 }
 
 .dialog__footer {
