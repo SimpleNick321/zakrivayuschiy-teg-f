@@ -62,9 +62,12 @@
 
 .card-title {
   font-size: 18px;
-  line-height: 21.78px;
+  line-height: 1.21;
   font-variation-settings: 'wght' var(--title-font-weight);
   padding: 7px 10px;
+  padding-block: 5px 4px;
+  padding-inline-start: 10px;
+  border-top: 1px solid #000;
 }
 
 .card-image-block {
@@ -80,14 +83,15 @@
 
 .watermark {
   position: absolute;
-  right: 11px;
-  top: 23px;
+  right: 25px;
+  top: 25px;
   font-family: var(--accent-font-family);
   font-size: 14px;
   text-transform: uppercase;
   opacity: 0.5;
   mix-blend-mode: hard-light;
   text-shadow: 1px 1px 0 #fff;
+  line-height: 1;
 }
 
 @supports (-webkit-text-stroke: 1px #fff) {
@@ -135,7 +139,7 @@
   flex-direction: column;
   gap: 25px;
   padding: 25px;
-  line-height: 21px;
+  line-height: 1.166;
 }
 
 .card-button {
