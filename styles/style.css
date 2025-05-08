@@ -356,3 +356,11 @@ dialog::backdrop {
     inline-size: 21px;
   }
 }
+
+
+@media (width <= 375px) {
+  
+  .watermark {
+    inset-inline-end: 13px;
+  }
+}
